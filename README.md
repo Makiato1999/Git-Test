@@ -1,4 +1,4 @@
-# Git-Test
+# Git-Notes
 testing various git commands and operations...
 How to use simple git commands
 1. open terminal and find the location of the clone repository 
