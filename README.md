@@ -1,5 +1,10 @@
-# Git-Notes
-testing various git commands and operations...
+# Frequent Commands
+### package and library
+- find pip installation
+  - ```pip list```
+- open Jupyter
+  - ```jupyter lab```
+### version control
 How to use simple git commands
 1. open terminal and find the location of the clone repository 
 2. 'git clone -b branch' + urlLink
