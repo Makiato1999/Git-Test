@@ -13,10 +13,10 @@
 Installing Python paths for MacOS
 - first, check python version `python --version`
 - By default, an Apple Mac has Python installed with version 2.7
-  - If you want to change default version to 2.7
-  - open script```vim ~/.zshrc```
-  - add```PATH="/Library/Python/2.7/bin:${PATH}```because this is python2.7 pathway
-  - compile it with `source ~/.zshrc`
+  - If you want to change default version to 2.7 from any other version
+    - open script```vim ~/.zshrc```
+    - add```PATH="/Library/Python/2.7/bin:${PATH}```because this is python2.7 pathway
+    - compile it with `source ~/.zshrc`
 - so, check `python3 --version`
 ##### if it exists, then we will change the default path
   - first, check the PATH `brew info python`
