@@ -63,6 +63,6 @@ simple git commands for
 - updated local content from remote repository, ```git pull```
 
 ### Shell<a name="anchor_Shell"></a>
-- If you modify the, after executing ```source ~/.bash_profile```, your all commands are invalid. Try ```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
+- after executing ```source ~/.bash_profile```, your all commands are invalid. Try ```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
  
 ### MySQL<a name="anchor_MySQL"></a>
