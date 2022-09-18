@@ -2,6 +2,7 @@
 1. [Homebrew](#anchor_Homebrew)<br/>
 2. [Jupyter Lab](#anchor_Jupyter)<br/>
 3. [Version Control](#anchor_VersionControl)<br/>
+4. [MySQl(local)](#anchor_MySQl)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
 - list homebrew applications```brew list```
@@ -34,3 +35,5 @@ simple git commands for
 - ```git commit -m "add helloWorld.java to main branch..."```
 - ```git push -u origin yourBranchName```
 - updated local content from remote repository, ```git pull```
+
+### MySQL<a name="anchor_MySQL"></a>
