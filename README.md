@@ -53,6 +53,9 @@
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
 - find pip installed application```pip list```
 - open Jupyter```jupyter lab```
+###### uninstall all jupyterlab and its dependencies
+  - install ```pip3 install python3-pip-autoremove```
+  - then```pip3-autoremove jupyterlab```
 
 ### Version Control<a name="anchor_VersionControl"></a>
 simple git commands for 
