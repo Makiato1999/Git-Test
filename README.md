@@ -1,10 +1,11 @@
 # Frequent Commands
 1. [Homebrew](#anchor_Homebrew)<br/>
 2. [Python(local)](#anchor_Python)<br/>
-3. [Jupyter Lab](#anchor_Jupyter)<br/>
-4. [Version Control](#anchor_VersionControl)<br/>
-5. [Shell](#anchor_Shell)<br/>
-6. [MySQl(local)](#anchor_MySQl)<br/>
+3. [virtual environment](#anchor_venv)<br/>
+4. [Jupyter Lab](#anchor_Jupyter)<br/>
+5. [Version Control](#anchor_VersionControl)<br/>
+6. [Shell](#anchor_Shell)<br/>
+7. [MySQl(local)](#anchor_MySQl)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
 - list homebrew applications```brew list```
@@ -36,6 +37,11 @@ Installing Python paths for MacOS
 ##### if it doesn't exist, we will install new version Python
   - install hom brew first, then `brew info python`
   - then, go back to if it exists
+
+### virtual environment<a name="anchor_venv"></a>
+- find venv pathway```cd /```
+- change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
+  - ```virtualenv venv --python=python2.7```
 
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
 - find pip installed application```pip list```
