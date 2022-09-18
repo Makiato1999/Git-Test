@@ -3,7 +3,8 @@
 2. [Python(local)](#anchor_Python)<br/>
 3. [Jupyter Lab](#anchor_Jupyter)<br/>
 4. [Version Control](#anchor_VersionControl)<br/>
-5. [MySQl(local)](#anchor_MySQl)<br/>
+5. [Shell](#anchor_Shell)<br/>
+6. [MySQl(local)](#anchor_MySQl)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
 - list homebrew applications```brew list```
@@ -61,4 +62,7 @@ simple git commands for
 - ```git push -u origin yourBranchName```
 - updated local content from remote repository, ```git pull```
 
+### Shell
+- If you modify the, after executing ```source ~/.bash_profile```, your all commands are invalid. Try ```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
+ 
 ### MySQL<a name="anchor_MySQL"></a>
