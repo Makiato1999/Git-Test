@@ -37,7 +37,7 @@
 - if it doesn't exist, we will install new version Python
   - install hom brew first, then `brew info python`
   - then, go back to if it exists
-##### install Turi Create within your virtual environment
+###### Install Turi Create within your virtual environment
   - first```cd ~```
   - go into environment```virtualenv venv```
   - activate your virtual environment```source ~/venv/bin/activate```
