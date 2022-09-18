@@ -1,5 +1,7 @@
 # Frequent Commands
 ### package and library
+- list homebrew applications
+  - ```brew list```
 - find pip installation
   - ```pip list```
 - open Jupyter
