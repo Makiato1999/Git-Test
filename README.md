@@ -32,6 +32,10 @@ Installing Python paths for MacOS
 ##### if it doesn't exist, we will install new version Python
   - install hom brew first, then `brew info python`
   - then, go back to if it exists
+If you want to change default version to 2.7
+- open script```vim ~/.zshrc```
+- add```PATH="/Library/Python/2.7/bin:${PATH}```because this is python2.7 pathway
+- compile it with `source ~/.zshrc`
 
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
 - find pip installed application```pip list```
