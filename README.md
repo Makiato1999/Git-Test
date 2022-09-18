@@ -39,7 +39,7 @@ Installing Python paths for MacOS
   - then, go back to if it exists
 
 ### virtual environment<a name="anchor_venv"></a>
-- find venv pathway```cd /```
+- find venv pathway```cd /usr/bin/python2.7```
 - change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
   - ```virtualenv venv --python=python2.7```
 
