@@ -4,7 +4,7 @@
 3. [Version Control](#anchor_VersionControl)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
-list homebrew applications```brew list```
+- list homebrew applications```brew list```
 
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
 - find pip installed application```pip list```
