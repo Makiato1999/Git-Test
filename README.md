@@ -11,7 +11,7 @@
 - list homebrew applications```brew list```
 
 ### Python(local)<a name="anchor_Python"></a>
-Installing Python paths for MacOS
+###### Installing Python paths for MacOS
 - first, check python version `python --version`
 - By default, an Apple Mac has Python installed with version 2.7
   - If you want to change default version to 2.7 from any other version
@@ -37,7 +37,7 @@ Installing Python paths for MacOS
 - if it doesn't exist, we will install new version Python
   - install hom brew first, then `brew info python`
   - then, go back to if it exists
-- install Turi Create within your virtual environment
+##### install Turi Create within your virtual environment
   - first```cd ~```
   - go into environment```virtualenv venv```
   - activate your virtual environment```source ~/venv/bin/activate```
