@@ -51,6 +51,7 @@ mac default python path```/usr/bin/python2.7```
   - change default python version in virtual environment```virtualenv -p python2.7 venv```
   - change python version temporarily```virtualenv venv --python=python2.7```
 - quit environment```deactivate```
+- delete virtual environment```rm -rf venv```
 
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
 - find pip installed application```pip list```
