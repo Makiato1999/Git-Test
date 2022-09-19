@@ -11,6 +11,7 @@
 - list homebrew applications```brew list```
 
 ### Python(local)<a name="anchor_Python"></a>
+mac default python path```/usr/bin/python2.7```
 ###### Installing Python paths for MacOS
 - first, check python version `python --version`
 - By default, an Apple Mac has Python installed with version 2.7
@@ -45,7 +46,7 @@
   - refer to https://github.com/apple/turicreate#installation
 
 ### virtual environment<a name="anchor_venv"></a>
-- find venv pathway```/usr/bin/python2.7```
+- find venv pathway```cd ~```
 - change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
   - change default python version in virtual environment```virtualenv -p python2.7 venv```
   - change python version temporarily```virtualenv venv --python=python2.7```
