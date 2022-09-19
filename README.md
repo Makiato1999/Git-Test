@@ -47,7 +47,8 @@
 ### virtual environment<a name="anchor_venv"></a>
 - find venv pathway```/usr/bin/python2.7```
 - change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
-  - ```virtualenv venv --python=python2.7```
+  - change default python version in virtual environment```virtualenv -p python2.7 venv```
+  - change python version temporarily```virtualenv venv --python=python2.7```
 - quit environment```deactivate```
 
 ### Jupyter Lab<a name="anchor_Jupyter"></a>
