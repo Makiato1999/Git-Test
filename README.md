@@ -47,9 +47,10 @@ mac default python path```/usr/bin/python2.7```
 
 ### virtual environment<a name="anchor_venv"></a>
 - find venv pathway```cd ~```
+- install virtual environment ```pip install virtualenv```
 - change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
   - change default python version in virtual environment```virtualenv -p python2.7 venv```
-  - change python version temporarily```virtualenv venv --python=python2.7```
+  - change python version```virtualenv venv --python=python2.7```
 - quit environment```deactivate```
 - delete virtual environment```rm -rf venv```
 
