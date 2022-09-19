@@ -41,7 +41,7 @@ mac default python path```/usr/bin/python2.7```
 ###### Install Turi Create within your virtual environment
   - first```cd ~```
   - create environment```virtualenv venv```/again
-  - activate your virtual environment```source ~/venv/bin/activate```
+  - <b>activate your virtual environment</b>```source ~/venv/bin/activate```
   - then install Turi Create within your virtual environment:```(venv) pip install -U turicreate```
   - refer to https://github.com/apple/turicreate#installation
 
