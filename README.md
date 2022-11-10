@@ -11,7 +11,8 @@
 - list homebrew applications```brew list```
 
 ### Python(local)<a name="anchor_Python"></a>
-mac default python path```/usr/bin/python2.7```
+mac default python path```/usr/bin/python2.7```<br>
+```/usr/local/opt/python@3.9```
 ###### Installing Python paths for MacOS
 - first, check python version `python --version`
 - By default, an Apple Mac has Python installed with version 2.7
