@@ -71,6 +71,7 @@ simple git commands for
 6. ```git add helloWorld.java``` / ```git add *```
 7. ```git commit -m "add helloWorld.java to main branch..."```
 8. ```git push -u origin yourBranchName```
+  - ```origin``` stands for current cloned branch
 
 update remote repository and branch
 1. go to local branch which you wanna push
