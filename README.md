@@ -101,8 +101,8 @@ if after executing ```source ~/.zshrc```, your all commands are invalid.
   - maybe u write wrong PATH, so try```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
 <br>
 ZSH, Oh My Zsh!<br>
-->[10 minutes video](https://www.youtube.com/watch?v=9eJ0HHHNuls)
-- change theme```p10k configure```
+  - [10 minutes video](https://www.youtube.com/watch?v=9eJ0HHHNuls)
+  - change theme```p10k configure```
  
 ### MySQL<a name="anchor_MySQL"></a>
 connect by ```mysql -h localhost -P 3306 -u root -p```<br>
