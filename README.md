@@ -99,8 +99,8 @@ update remote repository and branch
 ### Shell<a name="anchor_Shell"></a>
 if after executing ```source ~/.zshrc```, your all commands are invalid.
   - maybe u write wrong PATH, so try```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
-<br>
-ZSH, Oh My Zsh!<br>
+
+ZSH, Oh My Zsh!
   - [10 minutes video](https://www.youtube.com/watch?v=9eJ0HHHNuls)
   - change theme```p10k configure```
  
