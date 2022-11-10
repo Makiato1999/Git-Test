@@ -72,6 +72,14 @@ simple git commands for
 7. ```git commit -m "add helloWorld.java to main branch..."```
 8. ```git push -u origin yourBranchName```
 
+update remote repository and branch
+1. go to local branch which you wanna push
+2. ```git pull HTTP yourBranchName```
+3. ```git status```
+4. ```git add *```
+5. ```git commit -m "what u want..."```
+6. ```git push -u origin yourBranchName```
+
 - login Github, ```gh auth login```
 - if u want to clone repository, ```gh repo clone <YOUR USERNAME>/<REPOSITORY-NAME>```
 - if repository is exist,
