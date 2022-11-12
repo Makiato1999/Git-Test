@@ -47,6 +47,12 @@ mac default python path```/usr/bin/python2.7```<br>
   - refer to https://github.com/apple/turicreate#installation
 
 ### virtual environment<a name="anchor_venv"></a>
+active existed venv
+- find venv pathway```cd ~```
+- <b>activate your virtual environment</b>```source ~/venv/bin/activate```
+- quit environment```deactivate```
+
+create venv
 - find venv pathway```cd ~```
 - install virtual environment ```pip install virtualenv```
 - change Python version in venv, this only works if you have python2.7 installed at the system level (e.g. /usr/bin/python2.7)
