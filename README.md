@@ -115,6 +115,7 @@ ZSH, Oh My Zsh!
 connect by ```mysql -h localhost -P 3306 -u root -p```<br>
 ```xxr990610```
 
+
 ### Java<a name="anchor_Java"></a>
 I currently installed java19
 1. find java path
