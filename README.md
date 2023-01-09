@@ -9,11 +9,11 @@
 8. [Java](#anchor_java)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_homebrew"></a>
-- list homebrew applications```brew list```
+list homebrew applications```brew list```
 
 ### Python(local)<a name="anchor_python"></a>
 mac default python path```/usr/bin/python2.7```<br>
-```/usr/local/opt/python@3.9```
+other python path```/usr/local/opt/python@3.9```
 ###### Installing Python paths for MacOS
 - first, check python version `python --version`
 - By default, an Apple Mac has Python installed with version 2.7
@@ -117,6 +117,7 @@ connect by ```mysql -h localhost -P 3306 -u root -p```<br>
 
 
 ### Java<a name="anchor_java"></a>
+Java path
 1. find java path```/usr/libexec/java_home -v19```<br>
    which is ```/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home```
 2. open bash change default java```vi .bash_profile```or```code .bash_profile```<br>
