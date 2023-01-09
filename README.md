@@ -6,7 +6,7 @@
 5. [Version Control](#anchor_VersionControl)<br/>
 6. [Shell](#anchor_Shell)<br/>
 7. [MySQl(local)](#anchor_MySQl)<br/>
-8. [Java](#anchor_Java)<br/>
+8. [Java](#anchor_java)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
 - list homebrew applications```brew list```
@@ -116,7 +116,7 @@ connect by ```mysql -h localhost -P 3306 -u root -p```<br>
 ```xxr990610```
 
 
-### Java<a name="anchor_Java"></a>
+### Java<a name="anchor_java"></a>
 I currently installed java19
 1. find java path
     ```/usr/libexec/java_home -v19```
