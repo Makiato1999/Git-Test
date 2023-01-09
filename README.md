@@ -123,3 +123,4 @@ connect by ```mysql -h localhost -P 3306 -u root -p```<br>
    then add ```export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home``` at end of the file
 3. check updated path```echo $JAVA_HOME```<br>
    which should be ```/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home```
+4. refer to this [link](https://www.youtube.com/watch?v=pxi3iIy4F5A&list=PL_hEbhs9YfZir3irk75Knq1CVjxpAnrxy&index=22)
