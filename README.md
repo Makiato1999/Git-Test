@@ -1,17 +1,17 @@
 # Frequent Commands
-1. [Homebrew](#anchor_Homebrew)<br/>
-2. [Python(local)](#anchor_Python)<br/>
+1. [Homebrew](#anchor_homebrew)<br/>
+2. [Python(local)](#anchor_python)<br/>
 3. [virtual environment](#anchor_venv)<br/>
-4. [Jupyter Lab](#anchor_Jupyter)<br/>
-5. [Version Control](#anchor_VersionControl)<br/>
-6. [Shell](#anchor_Shell)<br/>
-7. [MySQl(local)](#anchor_MySQl)<br/>
+4. [Jupyter Lab](#anchor_jupyter)<br/>
+5. [Version Control](#anchor_versioncontrol)<br/>
+6. [Shell](#anchor_shell)<br/>
+7. [MySQl(local)](#anchor_mysql)<br/>
 8. [Java](#anchor_java)<br/>
   -------------------------------------------------------------------
-### Homebrew<a name="anchor_Homebrew"></a>
+### Homebrew<a name="anchor_homebrew"></a>
 - list homebrew applications```brew list```
 
-### Python(local)<a name="anchor_Python"></a>
+### Python(local)<a name="anchor_python"></a>
 mac default python path```/usr/bin/python2.7```<br>
 ```/usr/local/opt/python@3.9```
 ###### Installing Python paths for MacOS
@@ -62,14 +62,14 @@ create venv
 - quit environment```deactivate```
 - delete virtual environment```rm -rf venv```
 
-### Jupyter Lab<a name="anchor_Jupyter"></a>
+### Jupyter Lab<a name="anchor_jupyter"></a>
 - find pip installed application```pip list```
 - open Jupyter```jupyter lab```
 ###### uninstall all jupyterlab and its dependencies
   - install ```pip3 install python3-pip-autoremove```
   - then```pip3-autoremove jupyterlab```
 
-### Version Control<a name="anchor_VersionControl"></a>
+### Version Control<a name="anchor_versioncontrol"></a>
 simple git commands for 
 1. open terminal and find the location of the clone repository 
 2. ```git clone -b branch``` + urlLink
@@ -103,7 +103,7 @@ update remote repository and branch
 - ```git push -u origin yourBranchName```
 - updated local content from remote repository, ```git pull```
 
-### Shell<a name="anchor_Shell"></a>
+### Shell<a name="anchor_shell"></a>
 if after executing ```source ~/.zshrc```, your all commands are invalid.
   - maybe u write wrong PATH, so try```PATH=/bin:/usr/bin:/usr/local/bin:＄{PATH}```
 
@@ -111,7 +111,7 @@ ZSH, Oh My Zsh!
   - [10 minutes video](https://www.youtube.com/watch?v=9eJ0HHHNuls)
   - change theme```p10k configure```
  
-### MySQL<a name="anchor_MySQL"></a>
+### MySQL<a name="anchor_mysql"></a>
 connect by ```mysql -h localhost -P 3306 -u root -p```<br>
 ```xxr990610```
 
