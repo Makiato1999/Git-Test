@@ -6,6 +6,7 @@
 5. [Version Control](#anchor_VersionControl)<br/>
 6. [Shell](#anchor_Shell)<br/>
 7. [MySQl(local)](#anchor_MySQl)<br/>
+8. [Java](#anchor_Java)<br/>
   -------------------------------------------------------------------
 ### Homebrew<a name="anchor_Homebrew"></a>
 - list homebrew applications```brew list```
@@ -113,3 +114,10 @@ ZSH, Oh My Zsh!
 ### MySQL<a name="anchor_MySQL"></a>
 connect by ```mysql -h localhost -P 3306 -u root -p```<br>
 ```xxr990610```
+
+### Java<a name="anchor_Java"></a>
+I currently installed java19
+1. find java path
+    ```/usr/libexec/java_home -v19```
+   which is /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+2. 
