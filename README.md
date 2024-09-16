@@ -1,13 +1,31 @@
 # Frequent Commands
-1. [Homebrew](#anchor_homebrew)<br/>
-2. [Python(local)](#anchor_python)<br/>
-3. [virtual environment](#anchor_venv)<br/>
-4. [Jupyter Lab](#anchor_jupyter)<br/>
-5. [Version Control](#anchor_versioncontrol)<br/>
-6. [Shell](#anchor_shell)<br/>
-7. [MySQl(local)](#anchor_mysql)<br/>
-8. [Java](#anchor_java)<br/>
+1. [Windows Git](#anchor_windows)<br/>
+2. [Homebrew](#anchor_homebrew)<br/>
+3. [Python(local)](#anchor_python)<br/>
+4. [virtual environment](#anchor_venv)<br/>
+5. [Jupyter Lab](#anchor_jupyter)<br/>
+6. [Version Control](#anchor_versioncontrol)<br/>
+7. [Shell](#anchor_shell)<br/>
+8. [MySQl(local)](#anchor_mysql)<br/>
+9. [Java](#anchor_java)<br/>
   -------------------------------------------------------------------
+### Windows Git<a name="anchor_windows"></a>
+Clone the remote repository
+  1. create folder in local disk, such as C:/Dev/MyApp
+  2. initialize empty Git repository in `C:/Dev/MyApp/.git/`
+     ```git init```
+  3. link a local Git repository to a remote repository
+     ```git remote add origin Remote_Repository_URL```
+  4. retrieve updates from the remote repository named `origi`
+     ```git fetch origin```
+  5. create a new local branch that tracks a remote branch
+     ```git checkout -b Local_Branch_Name origin/Remote_Branch_Name```
+  6. check all local and remote branches
+     ```git branch -a```
+  7. temporarily save changes in your working directory that you don't want to commit just yet
+     ``` git stash```
+
+
 ### Homebrew<a name="anchor_homebrew"></a>
 list homebrew applications```brew list```
 
