@@ -11,20 +11,35 @@
   -------------------------------------------------------------------
 ### Windows Git<a name="anchor_windows"></a>
 Clone the remote repository
-  1. create folder in local disk, such as C:/Dev/MyApp
+  1. create folder in local disk
+     ```
+     mkdir C:/Dev/MyApp
+     ```
   2. initialize empty Git repository in `C:/Dev/MyApp/.git/`
-     ```git init```
+     ```
+     cd C:/Dev/MyApp
+     git init
+     ```
   3. link a local Git repository to a remote repository
-     ```git remote add origin Remote_Repository_URL```
+     ```
+     git remote add origin Remote_Repository_URL
+     ```
   4. retrieve updates from the remote repository named `origi`
-     ```git fetch origin```
+     ```
+     git fetch origin
+     ```
   5. create a new local branch that tracks a remote branch
-     ```git checkout -b Local_Branch_Name origin/Remote_Branch_Name```
+     ```
+     git checkout -b Local_Branch_Name origin/Remote_Branch_Name
+     ```
   6. check all local and remote branches
-     ```git branch -a```
+     ```
+     git branch -a
+     ```
   7. temporarily save changes in your working directory that you don't want to commit just yet
-     ``` git stash```
-
+     ```
+     git stash
+     ```
 
 ### Homebrew<a name="anchor_homebrew"></a>
 list homebrew applications```brew list```
