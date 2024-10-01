@@ -40,6 +40,24 @@ Clone the remote repository
      ```
      git stash
      ```
+Revert commit in Pull Request
+  1. check recent commit history
+     ```
+     git log -1
+     ```
+  2. choose the commit hash id and revert
+     ```
+     git revert commit-hash-id
+     ```
+  3. clean unstagged and untracted files & directories
+     ```
+     git clean -fd
+     ```
+  4. check current status
+     ```
+     git status
+     ```
+  5. after modification, git add, commit, push and check your PR
 
 ### Homebrew<a name="anchor_homebrew"></a>
 list homebrew applications```brew list```
