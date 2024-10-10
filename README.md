@@ -12,62 +12,62 @@
 ### Windows Git<a name="anchor_windows"></a>
 Clone the remote repository
   1. create folder in local disk
-     ```bat
+     ```cmd
      mkdir C:/Dev/MyApp
      ```
   2. initialize empty Git repository in `C:/Dev/MyApp/.git/`
-     ```bat
+     ```cmd
      cd C:/Dev/MyApp
      git init
      ```
   3. link a local Git repository to a remote repository
-     ```bat
+     ```cmd
      git remote add origin Remote_Repository_URL
      ```
   4. retrieve updates from the remote repository named `origi`
-     ```bat
+     ```cmd
      git fetch origin
      ```
   5. create a new local branch that tracks a remote branch
-     ```bat
+     ```cmd
      git checkout -b Local_Branch_Name origin/Remote_Branch_Name
      ```
   6. check all local and remote branches
-     ```bat
+     ```cmd
      git branch -a
      ```
   7. temporarily save changes in your working directory that you don't want to commit just yet
-     ```bat
+     ```cmd
      git stash
      ```
 Revert commit in Pull Request
   1. check recent commit history
-     ```bat
+     ```cmd
      git log -1
      ```
   2. choose the commit hash id and revert
-     ```bat
+     ```cmd
      git revert commit-hash-id
      ```
   3. if you don't want to revert now, just quit revert vim without save
-     ```bat
+     ```cmd
      :q!
      ```
      otherwise
-     ```bat
+     ```cmd
      :wq
      ```
   4. if you don't want to revert all files in commit, you can choose to revert some specific files
-     ```bat
+     ```cmd
      git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.html
      git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.ts
      ```
   6. clean unstagged and untracted files & directories
-     ```bat
+     ```cmd
      git clean -fd
      ```
   7. check current status
-     ```bat
+     ```cmd
      git status
      ```
   8. after modification, git add, commit, push and check your PR
