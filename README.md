@@ -49,15 +49,23 @@ Revert commit in Pull Request
      ```
      git revert commit-hash-id
      ```
-  3. clean unstagged and untracted files & directories
+  3. if you don't want to revert now, just quit revert vim without save
+     ```
+     :q!
+     ```
+     otherwise
+     ```
+     :wq
+     ```
+  4. clean unstagged and untracted files & directories
      ```
      git clean -fd
      ```
-  4. check current status
+  5. check current status
      ```
      git status
      ```
-  5. after modification, git add, commit, push and check your PR
+  6. after modification, git add, commit, push and check your PR
 
 ### Homebrew<a name="anchor_homebrew"></a>
 list homebrew applications```brew list```
