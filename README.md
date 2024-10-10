@@ -12,32 +12,32 @@
 ### Windows Git<a name="anchor_windows"></a>
 Clone the remote repository
   1. create folder in local disk
-     ```bet
+     ```bat
      mkdir C:/Dev/MyApp
      ```
   2. initialize empty Git repository in `C:/Dev/MyApp/.git/`
-     ```bet
+     ```bat
      cd C:/Dev/MyApp
      git init
      ```
   3. link a local Git repository to a remote repository
-     ```bet
+     ```bat
      git remote add origin Remote_Repository_URL
      ```
   4. retrieve updates from the remote repository named `origi`
-     ```bet
+     ```bat
      git fetch origin
      ```
   5. create a new local branch that tracks a remote branch
-     ```bet
+     ```bat
      git checkout -b Local_Branch_Name origin/Remote_Branch_Name
      ```
   6. check all local and remote branches
-     ```bet
+     ```bat
      git branch -a
      ```
   7. temporarily save changes in your working directory that you don't want to commit just yet
-     ```bet
+     ```bat
      git stash
      ```
 Revert commit in Pull Request
@@ -46,28 +46,28 @@ Revert commit in Pull Request
      git log -1
      ```
   2. choose the commit hash id and revert
-     ```bet
+     ```bat
      git revert commit-hash-id
      ```
   3. if you don't want to revert now, just quit revert vim without save
-     ```bet
+     ```bat
      :q!
      ```
      otherwise
-     ```bet
+     ```bat
      :wq
      ```
   4. if you don't want to revert all files in commit, you can choose to revert some specific files
-     ```bet
+     ```bat
      git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.html
      git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.ts
      ```
   6. clean unstagged and untracted files & directories
-     ```bet
+     ```bat
      git clean -fd
      ```
   7. check current status
-     ```bet
+     ```bat
      git status
      ```
   8. after modification, git add, commit, push and check your PR
