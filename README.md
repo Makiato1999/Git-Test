@@ -12,60 +12,65 @@
 ### Windows Git<a name="anchor_windows"></a>
 Clone the remote repository
   1. create folder in local disk
-     ```
+     ```bet
      mkdir C:/Dev/MyApp
      ```
   2. initialize empty Git repository in `C:/Dev/MyApp/.git/`
-     ```
+     ```bet
      cd C:/Dev/MyApp
      git init
      ```
   3. link a local Git repository to a remote repository
-     ```
+     ```bet
      git remote add origin Remote_Repository_URL
      ```
   4. retrieve updates from the remote repository named `origi`
-     ```
+     ```bet
      git fetch origin
      ```
   5. create a new local branch that tracks a remote branch
-     ```
+     ```bet
      git checkout -b Local_Branch_Name origin/Remote_Branch_Name
      ```
   6. check all local and remote branches
-     ```
+     ```bet
      git branch -a
      ```
   7. temporarily save changes in your working directory that you don't want to commit just yet
-     ```
+     ```bet
      git stash
      ```
 Revert commit in Pull Request
   1. check recent commit history
-     ```
+     ```bat
      git log -1
      ```
   2. choose the commit hash id and revert
-     ```
+     ```bet
      git revert commit-hash-id
      ```
   3. if you don't want to revert now, just quit revert vim without save
-     ```
+     ```bet
      :q!
      ```
      otherwise
-     ```
+     ```bet
      :wq
      ```
-  4. clean unstagged and untracted files & directories
+  4. if you don't want to revert all files in commit, you can choose to revert some specific files
+     ```bet
+     git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.html
+     git checkout commit-hash-id -- src/app/components/price-management/scrap-value/scrap-value-dialog/scrap-value-dialog.component.ts
      ```
+  6. clean unstagged and untracted files & directories
+     ```bet
      git clean -fd
      ```
-  5. check current status
-     ```
+  7. check current status
+     ```bet
      git status
      ```
-  6. after modification, git add, commit, push and check your PR
+  8. after modification, git add, commit, push and check your PR
 
 ### Homebrew<a name="anchor_homebrew"></a>
 list homebrew applications```brew list```
