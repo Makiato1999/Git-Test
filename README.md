@@ -8,6 +8,7 @@
 7. [Shell](#anchor_shell)<br/>
 8. [MySQl(local)](#anchor_mysql)<br/>
 9. [Java](#anchor_java)<br/>
+10. [Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-mac-os/)<br/>
   -------------------------------------------------------------------
 ### Windows Git<a name="anchor_windows"></a>
 Clone the remote repository
